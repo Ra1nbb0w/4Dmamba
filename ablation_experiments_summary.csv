@@ -1,0 +1,5 @@
+Experiment,Pretrained Weights,Temporal Pooling,3-Fold Mean Acc (%)
+Exp 1: Scratch + Single Mean Pooling,None (Random Init),Mean-Only (192-d),52.02% ± 3.98%
+Exp 2: Scratch + Dual Pooling,None (Random Init),"Dual (Mean+Max, 384-d)",52.02% ± 1.89%
+Exp 3: VideoMamba Transfer + Mean Pooling,VideoMamba (K400),Mean-Only (192-d),46.05% ± 4.24%
+Exp 4: Proposed Full Method,VideoMamba (K400),"Dual (Mean+Max, 384-d)",47.98% ± 1.89%
